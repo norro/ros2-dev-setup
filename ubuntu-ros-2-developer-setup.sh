@@ -104,7 +104,6 @@ export ROS_PYTHON_VERSION=3
 source \$ROS_WS/install/local_setup.bash
 
 alias colcon_build=\"colcon build --symlink-install --cmake-args \\\" -DCMAKE_BUILD_TYPE=Debug\\\" --event-handler console_direct+ --base-path=src\"
-alias colcon_build_nw=\"colcon build --symlink-install --cmake-args \\\" -DCMAKE_BUILD_TYPE=Debug\\\" --event-handler console_direct+ --base-path=src\"
 alias colcon_test=\"colcon test --base-path=src --event-handlers console_direct+ --pytest-args \\\" --capture=no\\\"\"
 
 export ROS_DISTRO=${DISTRIB}

@@ -8,6 +8,7 @@ This [script](./ubuntu-ros-2-developer-setup.sh) is basically automating what is
 
 1. A script in your home folder that sets some essential environment variables, sources the correct files, and brings you your ROS 2 installation folder. This script is for you to call whenever you want to start working (building) with ROS 2: `~/ros2{distro}.sh`
 1. A script that resides in your ROS 2 workspace and does an upgrade of your distribution whenever you feel like it: `./workspace-upgrade.sh`
+1. Introduces the aliases `colcon_build` and `colcon_test` that call colcon in a proper way. If you use these aliases for all your package builds, you should be fine. 
 
 ## Usage
 
