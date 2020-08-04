@@ -33,4 +33,4 @@ The ROS 2 Development Setup scripts are open-sourced under the Apache-2.0 licens
 
 ## Known Issues/Limitations
 
-Currently there is only one script that is fairly tested with recent ubuntu distributions and bash. Windows and Mac OS are currently not support (https://github.com/norro/ros2-dev-setup/issues/1, https://github.com/norro/ros2-dev-setup/issues/2), different linux environments might nor work as expected.
+Currently there is only one script that is fairly tested with recent ubuntu distributions and bash. Windows and Mac OS are currently not support ([#1](https://github.com/norro/ros2-dev-setup/issues/1), [#2](https://github.com/norro/ros2-dev-setup/issues/2)), different linux environments might nor work as expected.
